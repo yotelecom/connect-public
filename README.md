@@ -22,7 +22,7 @@ Move mouse pointer to given screen coordinates X, Y
 
 Simulate keyboard press
 
-````writePhone()````
+````writeCaller()````
 
 Simulate keyboard press of incoming callers phone number
 
