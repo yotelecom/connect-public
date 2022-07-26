@@ -2,9 +2,13 @@
 
 ### Macro functions
 
-````confirm()````
+````runOnCallRinging()````
 
-Shows a confirmation dialog
+This tells the app to run the macro when call rings instead of default, run when call established.
+
+````confirm()```` or ````confirm("Are you sure?")````
+
+Shows a confirmation dialog, with optional custom dialog. Default dialog is ````Search for +44111222333?````
 
 ````openApp(YourApp)````
 
