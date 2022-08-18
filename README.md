@@ -38,9 +38,10 @@ Move mouse pointer to given screen coordinates X, Y
 
 Simulate keyboard press
 
-* `writeCaller()`
+* `writeCaller()` or `writeCaller({"removeCountryCode":true})`
 
-Simulate keyboard press of incoming callers phone number
+Simulate keyboard press of incoming callers phone number. The optional configuration 
+`removeCountryCode` removes the country code from the caller and adds a zero in front of the number. 
 
 * `#` comment
 
